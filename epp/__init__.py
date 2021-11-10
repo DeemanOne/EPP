@@ -1,1 +1,1 @@
-from epp.epp_functions import (digest_messages, epp_simplify, plot_trajectory)
+from epp.epp_functions import (digest_messages, epp_simplify, plot_trajectory,plot_subtrajectories)
