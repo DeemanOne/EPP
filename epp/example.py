@@ -1,7 +1,7 @@
 # Example of the EPP method
 import pathlib
 import pandas
-from epp_functions import *
+from epp.epp_functions import *
 
 
 # Read file containing AIS DataFrame.

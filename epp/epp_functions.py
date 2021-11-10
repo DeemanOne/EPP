@@ -9,7 +9,7 @@
 # ------------------- IMPORTANT NOTICE -------------------------------------- #
 
 
-from smallestCircle import *
+from epp.smallestCircle import *
 import numpy as np
 import pandas as pd
 import nvector as nv
