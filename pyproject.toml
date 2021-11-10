@@ -1,0 +1,22 @@
+[tool.poetry]
+authors = ["Luis Felipe Sánchez-Heres <sanchezheresluis@hotmail.com>"]
+description = "An event identification and trajectory simplification method based on behaviour identification and translation."
+license = "Luis Felipe Sánchez-Heres"
+name = "epp"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "3.9.5"
+pyproj = {path = "windows_dependencies/3.9/pyproj-3.2.1-cp39-cp39-win_amd64.whl", platform = "win32"}
+basemap = {path = "windows_dependencies/3.9/basemap-1.2.2-cp39-cp39-win_amd64.whl", platform = "win32"}
+cartopy = {path = "windows_dependencies/3.9/Cartopy-0.20.1-cp39-cp39-win_amd64.whl", platform = "win32"}
+nvector = "^0.7.7"
+numpy = "^1.21.4"
+pandas = "^1.3.4"
+matplotlib = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
